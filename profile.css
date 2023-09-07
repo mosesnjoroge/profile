@@ -1,7 +1,7 @@
 /* navbar */
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #FEA330;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -18,7 +18,7 @@
   padding: 10px;
   background-color:#308BFE;
   width: auto;
-  margin: 1rem;
+  margin-top: 1rem;
   padding: 2rem 2rem;
 
 }
@@ -54,6 +54,11 @@
   transition: background 0.3s ease;
 }
 
+/* second banner box */
+.second-banner{
+  background-color: #FEA330;
+  padding: 5px;
+}
 /* profile box */
 img {
   margin: inherit;
