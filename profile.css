@@ -8,10 +8,9 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-brand{
+  color: #FEA330!important;
 }
-
 .nav-item .nav-link{
   color: #FEA330!important;
 }
