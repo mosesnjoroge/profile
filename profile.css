@@ -1,13 +1,4 @@
-
-
-/* header {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-} */
-
+/* navbar */
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
@@ -20,16 +11,59 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+/* banner */
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  background-color:#308BFE;
+  width: auto;
+  margin: 1rem;
+  padding: 2rem 2rem;
 
+}
+
+.banner-puzzle-piece img{
+  max-width: 50%;
+  max-height: 50px;
+}
+.banner-header{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: #FEA330;
+  transition: background 0.3s ease;
+}
+
+/* profile box */
 img {
   margin: inherit;
   position: inherit;
 }
 
 .avatar-bordered {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 50px;
+  height: 300px;
+  border-radius: 0%;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
 }
@@ -42,7 +76,6 @@ img {
 
 .profile-divider {
   border: 1px solid black;
-  margin: 1rem;
   padding: 2rem 2rem;
   text-align: center;
   display: flex;
@@ -73,10 +106,11 @@ li {
 .avatar-bordered {
   width: 300px;
   border-radius: 60%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.2); */
+  /* border: white 1px solid; */
 }
 
+/* footer */
 .footer {
   background: #F4F4F4;
   display: flex;
