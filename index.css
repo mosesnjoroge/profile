@@ -1,0 +1,10 @@
+@import url(./components/banner.css);
+@import url(./components/navbar.css);
+@import url(./components/profile.css);
+@import url(./components/footer.css);
+
+/* second banner box */
+.second-banner{
+  background-color: #FEA330;
+  padding: 5px;
+}
