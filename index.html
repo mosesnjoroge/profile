@@ -15,16 +15,27 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <!-- contact me modal -->
+              <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+              <!-- Modal -->
+              <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="contactModalLabel">Contact Me</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </li>
           </ul>
         </div>
@@ -40,7 +51,6 @@
             <h1>I specialize in<strong> thinking outside of the box</strong> to <strong>find solutions to complex problems </strong>!</h1>
           </div>
         </div>
-        <button class="btn-flat" href="#">Apply now</button>
       </div>
       <div class="second-banner container">
         <div class=" m-2 d-flex align-items-horizontal">
@@ -62,19 +72,62 @@
 
         <div class="cards">
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dtxxea3qi/image/upload/v1685206333/yellow-blob-shape.png)">
-            Breakfast
+            SideQuests
+          </div>
+
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dtxxea3qi/image/upload/v1685206333/yellow-blob-shape.png)">
+            Whoof
+          </div>
+
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dtxxea3qi/image/upload/v1685206333/yellow-blob-shape.png)">
+            Tenzies App
+          </div>
+
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dtxxea3qi/image/upload/v1685206333/yellow-blob-shape.png)">
+            Watch List
+          </div>
+        </div>
+      </div>
+      <div class="banner container mb-3">
+        <div class="banner-header">
+          <h1>Tech Stacks</h1>
+        </div>
+
+        <div class="cards">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dtxxea3qi/image/upload/v1685206333/yellow-blob-shape.png)">
+            <!-- Button trigger modal -->
+            <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              SideQuests
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Lunch
+            Whoof
           </div>
 
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Dinner
+            Tenzies App
           </div>
 
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Dinner
+            Watch List
           </div>
         </div>
       </div>
