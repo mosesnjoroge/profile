@@ -15,16 +15,34 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <!-- contact me modal -->
+              <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">
+                Contact
+              </a>
+              <!-- Modal -->
+              <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 navbar-brand" id="contactModalLabel">
+                        Contact Me
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body banner mt-0">
+                      <a target="_blank" href="https://www.linkedin.com/in/moses-njoroge-a78b46127/">
+                        <h1 class="banner">
+                          LinkedIn
+                        </h1>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -33,19 +51,20 @@
   </header>
   <body style="background-color: #FEA330;">
     <div class="container">
+      <!-- Main banner -->
       <div class="banner container">
         <div class=" m-2 d-flex align-items-horizontal">
-          <img class ="banner-puzzle-piece d-flex w-50" src="images/puzzle_piece.jpg" alt="jigsaw_puzzle"style="background-color: #308BFE;">
+          <img class ="banner-puzzle-piece d-flex w-50" src="https://res.cloudinary.com/dtxxea3qi/image/upload/v1694367159/portfolio/puzzle_piece_ioyejx.jpg" alt="jigsaw_puzzle"style="background-color: #308BFE;">
           <div class="banner-header">
             <h1>I specialize in<strong> thinking outside of the box</strong> to <strong>find solutions to complex problems </strong>!</h1>
           </div>
         </div>
-        <button class="btn-flat" href="#">Apply now</button>
       </div>
-      <div class="second-banner container">
+      <!-- About me Section -->
+      <div class="second-banner mt-2">
         <div class=" m-2 d-flex align-items-horizontal">
           <div class = "profile-info">
-            <img class ="avatar-bordered" src="images/profile.jpg" alt="Profile Photo">
+            <img class ="avatar-bordered" src="https://res.cloudinary.com/dtxxea3qi/image/upload/v1694367324/portfolio/profilephoto_efbve2.jpg" alt="Profile Photo">
           </div>
           <div class="banner-header">
             <div class = "profile-info">
@@ -55,44 +74,143 @@
           </div>
         </div>
       </div>
-      <div class="banner container">
+      <!-- highlight projects -->
+      <div class="banner">
         <div class="banner-header">
           <h1>Highlight Projects</h1>
         </div>
+        <!-- Project cards -->
+        <div class="cards">
+          <div class="card-category"
+            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url(https://user-images.githubusercontent.com/102884273/229380793-d5ccf618-3e1e-41f6-b60e-5e751198898a.png)">
+            <!-- Button trigger modal -->
+            <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              SideQuests
+            </a>
+
+            <!--  Sidequest Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 navbar-brand" id="exampleModalLabel">
+                      SideQuests
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body banner mt-0">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Whoof project card -->
+          <div class="card-category"
+            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url(https://user-images.githubusercontent.com/102884273/216397206-8be98fea-ff97-46c1-b008-b6188fb47ec3.png)">
+            <!-- Button trigger modal -->
+            <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Whoof
+            </a>
+
+            <!-- Whoof Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 navbar-brand" id="exampleModalLabel">
+                      Whoof
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body banner mt-0">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Notes project card -->
+          <div class="card-category"
+            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url(https://user-images.githubusercontent.com/102884273/229380795-0fcef9dc-460f-44af-bc7b-e206538dee38.png)">
+            <!-- Button trigger modal -->
+            <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Notes App
+            </a>
+
+            <!-- Notes Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 navbar-brand" id="exampleModalLabel">
+                      Tenzies Game
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body banner mt-0">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Watch List Project card -->
+          <div class="card-category"
+            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url(https://user-images.githubusercontent.com/102884273/216784234-c721e291-8199-49c2-8e5f-ebb975923e8f.png)">
+            <!-- Button trigger modal -->
+            <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Watch List
+            </a>
+
+            <!-- Watch List Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Watch List</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body banner mt-0">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tech Stacks banner -->
+      <div class="banner container mb-3">
+        <div class="banner-header">
+          <h1>Tech Stacks</h1>
+        </div>
 
         <div class="cards">
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Breakfast
-          </div>
-
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Lunch
-          </div>
-
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Dinner
-          </div>
-
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/puzzle_piece.jpg)">
-            Dinner
+          <div class="card-category" style="background-color:#FEA330;">
+            Whoof
           </div>
         </div>
       </div>
     </div>
-    <div class = "footer">
-      <h2 id= "footer-color">Follow me</strong></h2>
-      <ul class = "nobull" class ="footer-links">
-        <li class="footer-item">
-          <a class="footer-icon" target="_blank" href="https://github.com/mosesnjoroge"style="color: #FEA330!important;">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://www.linkedin.com/in/moses-njoroge-a78b46127/"style="color: #FEA330!important;">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
   </body>
+  <footer class = "footer">
+    <h2 id= "footer-color">Follow me</strong></h2>
+    <ul class = "nobull" class ="footer-links">
+      <li class="footer-item">
+        <a class="footer-icon" target="_blank" href="https://github.com/mosesnjoroge"style="color: #FEA330!important;">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/moses-njoroge-a78b46127/"style="color: #FEA330!important;">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </html>

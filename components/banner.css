@@ -2,11 +2,10 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 10px;
   background-color:#308BFE;
   width: auto;
   margin-top: 1rem;
-  padding: 2rem 2rem;
+  padding: 0rem 2rem 2rem;
 }
 
 .banner-puzzle-piece img{
