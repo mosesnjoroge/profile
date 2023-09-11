@@ -20,7 +20,7 @@
 }
 
 .card-category img{
-  width: auto;
+  max-width: 435px!important;
 }
 /* Smallest device */
 @media(min-width: 100px) ,(min-width:575px) {
