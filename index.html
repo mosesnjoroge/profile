@@ -183,11 +183,23 @@
                   </div>
                   <div class="modal-body banner mt-0">
                     <div class="cards">
-                      <div>
-                        <img class="card-category" src="https://user-images.githubusercontent.com/102884273/229380793-d5ccf618-3e1e-41f6-b60e-5e751198898a.png"/>
-                      </div>
-                      <div>
-                        <img class="card-category" src="https://user-images.githubusercontent.com/102884273/229380795-0fcef9dc-460f-44af-bc7b-e206538dee38.png"/>
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner container">
+                          <div class="carousel-item active">
+                            <img class="card-category d-block w-100" src="https://user-images.githubusercontent.com/102884273/229380793-d5ccf618-3e1e-41f6-b60e-5e751198898a.png"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="card-category d-block w-100" src="https://user-images.githubusercontent.com/102884273/229380795-0fcef9dc-460f-44af-bc7b-e206538dee38.png"/>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                       </div>
                     </div>
                     <div>
@@ -223,7 +235,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body banner mt-0">
-                    <!-- add photo carousel -->
+                    <!-- photo carousel -->
                     <div class="cards">
                       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner container">
