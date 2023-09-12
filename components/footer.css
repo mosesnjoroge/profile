@@ -1,0 +1,23 @@
+/* footer */
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+#footer-color {
+  color:#FEA330;
+}
+
+.footer-item .footer-icon a:hover{
+  color: #308BFE!important;
+}
