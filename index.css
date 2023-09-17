@@ -13,3 +13,8 @@
 .banner a{
   color:white;
 }
+
+.btn:hover{
+  color:white!important;
+  background-color: #FEA330!important;
+}
