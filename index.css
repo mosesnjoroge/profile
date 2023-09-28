@@ -8,7 +8,7 @@
 /* body */
 body{
   background-color: #308BFE!important;
-  font-family: 'Gideon Roman'!important;
+  font-family: 'Roboto'!important;
 }
 
 /* second banner box */
@@ -31,3 +31,10 @@ body{
   grid-template-columns: 1fr 1fr;
 }
 
+.modal-header{
+  background-color: #FEA330;
+}
+
+.modal-body{
+  background-color: #308BFE;
+}
