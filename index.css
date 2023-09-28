@@ -4,6 +4,13 @@
 @import url(./components/footer.css);
 @import url(./components/cards.css);
 
+
+/* body */
+body{
+  background-color: #308BFE!important;
+  font-family: 'Gideon Roman'!important;
+}
+
 /* second banner box */
 .second-banner{
   background-color: #FEA330;
@@ -17,5 +24,10 @@
 .btn:hover{
   color:white!important;
   background-color: #FEA330!important;
+}
+
+.page-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
