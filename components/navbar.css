@@ -9,10 +9,10 @@
 
 /* .navbar-brand{
   color: #FEA330!important;
-}
+/* } */
 .nav-item .nav-link{
-  color: #FEA330!important;
-} */
+  color: black;
+}
 
 .nav-item .nav-link:hover{
   color: #FEA330!important;
@@ -24,5 +24,4 @@
 
 .navbar-toggler:focus{
   box-shadow: none!important;
-  border-color: white!important;
 }

@@ -23,3 +23,9 @@ body{
   color:white!important;
   background-color: #FEA330!important;
 }
+
+.page-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
