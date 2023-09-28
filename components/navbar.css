@@ -7,15 +7,15 @@
   flex-grow: 0;
 }
 
-.navbar-brand{
+/* .navbar-brand{
   color: #FEA330!important;
 }
 .nav-item .nav-link{
   color: #FEA330!important;
-}
+} */
 
 .nav-item .nav-link:hover{
-  color: #308BFE!important;
+  color: #FEA330!important;
 }
 
 .navbar-toggler{
@@ -24,6 +24,5 @@
 
 .navbar-toggler:focus{
   box-shadow: none!important;
-  border-color: #308BFE!important;
+  border-color: white!important;
 }
-

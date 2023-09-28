@@ -4,6 +4,11 @@
 @import url(./components/footer.css);
 @import url(./components/cards.css);
 
+/* body */
+body{
+  background-color: #308BFE!important;
+  font-family: 'Gideon Roman'!important;
+}
 /* second banner box */
 .second-banner{
   background-color: #FEA330;
@@ -18,4 +23,3 @@
   color:white!important;
   background-color: #FEA330!important;
 }
-
