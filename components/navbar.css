@@ -2,6 +2,9 @@
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
+.nav-item .nav-link{
+  color: black;
+  }
 
 .nav-item .nav-link:hover{
   color: #308BFE!important;
