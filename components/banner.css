@@ -19,7 +19,6 @@
 
 .banner h1 {
   margin: 0;
-
   font-size: 32px;
   font-weight: bold;
 }
@@ -41,12 +40,3 @@
   margin-right:17px;
   margin-bottom: 17px;
 }
-/*
-.banner a{
-  color:white;
-} */
-
-/* tech skills banner */
-/* .techskills-banner{
-  background-color: #A1C6F4;
-} */
