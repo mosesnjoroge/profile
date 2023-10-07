@@ -4,26 +4,9 @@
 @import url(./components/footer.css);
 @import url(./components/cards.css);
 
-
 /* body */
-body{
-  background-color: #308BFE!important;
+.body {
   font-family: 'Roboto'!important;
-}
-
-/* second banner box */
-.second-banner{
-  background-color: #FEA330;
-  padding: 5px;
-}
-
-.banner a{
-  color:white;
-}
-
-.btn:hover{
-  color:white!important;
-  background-color: #FEA330!important;
 }
 
 .page-layout{
@@ -31,10 +14,14 @@ body{
   grid-template-columns: 1fr 1fr;
 }
 
-.modal-header{
-  background-color: #FEA330;
+.personal-box{
+  background-color: #308BFE;
 }
 
-.modal-body{
-  background-color: #308BFE;
+.modal-header{
+  background-color:#FEA330;
+}
+
+.project-btn{
+  color:white;
 }

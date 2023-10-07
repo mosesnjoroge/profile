@@ -1,26 +1,18 @@
 /* navbar */
-.navbar-lewagon {
-  justify-content: space-between;
-}
-
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
-
-.navbar-brand h2{
-  color:white;
-}
-
 .nav-item .nav-link{
-  color: white;
-}
+  color: black;
+  }
 
 .nav-item .nav-link:hover{
-  color: #FEA330!important;
+  color: #308BFE!important;
 }
 
 .navbar-toggler{
-  border-color: #FEA330!important;
+  border-color: #308BFE!important;
+
 }
 
 .navbar-toggler:focus{
