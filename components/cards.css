@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   padding: 10px;
-
 }
 
 .card-category {
@@ -13,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #FEA330;
   font-size: 24px;
   font-weight: bold;
   border-radius: 5px;

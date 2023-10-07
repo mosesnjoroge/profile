@@ -6,24 +6,13 @@
 
 
 /* body */
-body{
+body {
   background: linear-gradient(164deg, #308BFE 40.5%, rgba(111, 174, 254, 0.00) 85.74%);
   font-family: 'Roboto'!important;
   color:hsla(0, 0%, 0%, 1)
 }
 
-/* second banner box */
-.second-banner{
-  background-color: #FEA330;
-  padding: 5px;
-}
-
-.banner a{
-  color:white;
-}
-
 .btn:hover{
-  color:white!important;
   background-color: #FEA330!important;
 }
 
@@ -38,8 +27,4 @@ body{
 
 .modal-body{
   background-color: #308BFE;
-}
-
-body {
-  background: linear-gradient(164deg, #308BFE 40.5%, rgba(111, 174, 254, 0.00) 85.74%);
 }
