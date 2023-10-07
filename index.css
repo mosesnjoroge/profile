@@ -6,10 +6,9 @@
 
 
 /* body */
-body {
-  background-color: #308BFE;
+.body {
   font-family: 'Roboto'!important;
-  color:hsla(0, 0%, 0%, 1)
+  /* color:hsla(0, 0%, 0%, 1) */
 }
 
 .btn:hover{
