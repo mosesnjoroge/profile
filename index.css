@@ -5,26 +5,31 @@
 @import url(./components/cards.css);
 
 /* body */
-body{
-  background-color: #308BFE!important;
-  font-family: 'Gideon Roman'!important;
-}
-/* second banner box */
-.second-banner{
-  background-color: #FEA330;
-  padding: 5px;
-}
-
-.banner a{
-  color:white;
+.body {
+  font-family: 'Roboto'!important;
 }
 
 .btn:hover{
-  color:white!important;
+
   background-color: #FEA330!important;
 }
 
 .page-layout{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.personal-box{
+  background-color: #308BFE;
+}
+
+.modal-header{
+  background-color:#FEA330;
+}
+#contactModalLabel{
+  color:#308BFE;
+}
+
+.project-btn{
+  color:white;
 }

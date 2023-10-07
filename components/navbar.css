@@ -1,25 +1,17 @@
 /* navbar */
-.navbar-lewagon {
-  justify-content: space-between;
-}
-
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
-
-/* .navbar-brand{
-  color: #FEA330!important;
-/* } */
 .nav-item .nav-link{
   color: black;
-}
+  }
 
 .nav-item .nav-link:hover{
-  color: #FEA330!important;
+  color: #308BFE!important;
 }
 
 .navbar-toggler{
-  border-color: #FEA330!important;
+  border-color: #308BFE!important;
 }
 
 .navbar-toggler:focus{
