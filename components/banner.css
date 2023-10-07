@@ -30,8 +30,14 @@
 .btn-flat {
   padding: 8px 24px;
   border-radius: 4px;
-  background-color: #FEA330;
+  color:white;
+  background-color: #FEA330!important;
   transition: background 0.3s ease;
+}
+
+.btn-flat:hover{
+  background-color: #308BFE!important;
+  color:white;
 }
 
 /* second banner box */
