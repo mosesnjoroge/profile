@@ -7,7 +7,7 @@
 
 /* body */
 body {
-  background: linear-gradient(164deg, #308BFE 40.5%, rgba(111, 174, 254, 0.00) 85.74%);
+  background-color: #308BFE;
   font-family: 'Roboto'!important;
   color:hsla(0, 0%, 0%, 1)
 }
