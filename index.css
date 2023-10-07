@@ -20,6 +20,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.personal-box{
+  background-color: #308BFE;
+}
+
 .modal-header{
   background-color: #FEA330;
 }

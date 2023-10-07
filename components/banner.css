@@ -39,6 +39,7 @@
 .second-banner{
   background-color: #A1C6F4;
   margin-right:17px;
+  margin-bottom: 17px;
 }
 
 .banner a{
@@ -46,6 +47,6 @@
 }
 
 /* tech skills banner */
-.techskills-banner{
+/* .techskills-banner{
   background-color: #A1C6F4;
-}
+} */
