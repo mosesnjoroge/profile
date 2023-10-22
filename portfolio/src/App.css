@@ -1,4 +1,5 @@
 @import url(./style/components/navbar.css);
+@import url(./style/components/footer.css);
 html,
 body {
   margin: 0;
@@ -22,12 +23,8 @@ a {
   text-decoration: none;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
 
 img {
-  /* max-width: 100%; */
   height: auto;
 }
 
@@ -42,7 +39,7 @@ img {
 
 #footr {
   position: absolute;
-  /* bottom: 0; */
+  bottom: 0;
   width: 100%;
   height: 200px;            /* Footer height */
 }
