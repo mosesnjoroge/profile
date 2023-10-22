@@ -1,6 +1,8 @@
 @import url(./style/components/navbar.css);
 @import url(./style/components/footer.css);
 @import url(./style/components/banner.css);
+@import url(./style/components/cards.css);
+@import url(./style/components/profile.css);
 html,
 body {
   margin: 0;

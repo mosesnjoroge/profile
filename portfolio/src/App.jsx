@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './components/banner';
 import NaviBar from './components/navibar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './components/projects';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div id='page-container'>
       <NaviBar/>
       <div id='content-wrap'>
-      <Banner/>
+        <Banner/>
+        <Projects/>
       </div>
       <footer id="footr">
         <a href="#">Contact us</a>

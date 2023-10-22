@@ -10,3 +10,7 @@ footer {
 .footer-item .footer-icon a:hover{
   color: #308BFE!important;
 }
+
+a{
+  text-decoration: none!important;
+}
