@@ -1,4 +1,8 @@
 /* banner */
+.card-title{
+  height: 350px;
+}
+
 .banner {
   background-size: cover;
   background-position: center;
