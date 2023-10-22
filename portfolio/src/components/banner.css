@@ -1,0 +1,48 @@
+/* banner */
+.banner {
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  margin-top: 1rem;
+  padding: 0rem 2rem 2rem;
+}
+
+.banner-puzzle-piece img{
+  max-width: 50%;
+  max-height: 50px;
+}
+.banner-header{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.btn-flat {
+  padding: 8px 24px;
+  border-radius: 4px;
+  color:white;
+  background-color: #FEA330!important;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover{
+  background-color: #308BFE!important;
+  color:white;
+}
+
+/* second banner box */
+.second-banner{
+  background-color: #A1C6F4;
+  margin-right:17px;
+  margin-bottom: 17px;
+}

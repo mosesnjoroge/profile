@@ -1,0 +1,49 @@
+/* profile box */
+img {
+  margin: inherit;
+  position: inherit;
+}
+
+.avatar-bordered {
+  width: 50px;
+  height: 300px;
+  border-radius: 0%;
+}
+
+.clear-opacity {
+  opacity: 1.0;
+  align-self: center;
+}
+
+.profile-divider {
+  border: 1px solid black;
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.profile-info {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.profile-info.avatar-bordered {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 20px;
+}
+
+.nobull {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.avatar-bordered {
+  width: 300px;
+  border-radius: 5px;
+}
