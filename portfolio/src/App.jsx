@@ -1,8 +1,8 @@
 import './App.css'
-import Banner from './components/banner';
 import NaviBar from './components/navibar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './components/projects';
+import Banner from './components/banner';
 
 
 function App() {

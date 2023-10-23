@@ -1,7 +1,7 @@
 import CardTitle from "react-bootstrap/CardTitle";
 
 
-export default function Banner(){
+function Banner(){
 
   return (
     <div>
@@ -21,3 +21,4 @@ export default function Banner(){
     </div>
   );
 }
+export default Banner;
