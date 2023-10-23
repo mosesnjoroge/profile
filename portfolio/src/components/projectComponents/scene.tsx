@@ -1,5 +1,5 @@
 import { useTransform, useScroll, useTime } from "framer-motion";
-import { degreesToRadians} from "popmotion";
+
 import useFrame from "@react-three/fiber";
 
 export default function Scene(props) {
