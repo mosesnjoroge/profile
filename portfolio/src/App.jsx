@@ -3,8 +3,20 @@ import NaviBar from './components/navibar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './components/projects';
 import Banner from './components/banner';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn,Sticky} from "react-scroll-motion";
+import {
+  Animator,
+  ScrollContainer,
+  ScrollPage,
+  batch,
+  StickyIn,
+  Fade,
+  Sticky,
+  MoveOut,
+  FadeIn,
+  ZoomIn
+} from "react-scroll-motion";
 
+const ZoomInScrollOut = batch(StickyIn(),FadeIn(),ZoomIn())
 function App() {
 
   return (
@@ -13,12 +25,17 @@ function App() {
       <div id='content-wrap'>
         <ScrollContainer>
           <ScrollPage>
-            <Animator animation={batch(Sticky(), Fade(), FadeIn())}>
+            <Animator animation={batch(Sticky(),Fade(),MoveOut(0,-200))}>
               <Banner/>
             </Animator>
           </ScrollPage>
+
+          <ScrollPage>
+            <Animator animation={batch(ZoomInScrollOut)}>
+              <Projects/>
+            </Animator>
+          </ScrollPage>
         </ScrollContainer>
-        <Projects/>
       </div>
       <footer id="footr">
         <a href="#">Contact us</a>
