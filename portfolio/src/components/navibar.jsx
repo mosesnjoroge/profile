@@ -5,10 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 export default function NaviBar(){
 
   return(
-    <Navbar bg="light" expand="md" data-bs-theme="light">
+    <Navbar className='navbar-toggler' bg="light" expand="md" data-bs-theme="light">
       <Container>
-        <Navbar.Brand href="/">Moses Njoroge</Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="me-auto justify-content-between">
           <Nav.Link href="#features">Projects</Nav.Link>
           <Nav.Link href="#features">About</Nav.Link>
           <Nav.Link href="#features">Contact</Nav.Link>

@@ -3,7 +3,7 @@ import NaviBar from './components/navibar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './components/projects';
 import Banner from './components/banner';
-
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn,Sticky} from "react-scroll-motion";
 
 function App() {
 
@@ -11,7 +11,13 @@ function App() {
     <div id='page-container'>
       <NaviBar/>
       <div id='content-wrap'>
-        <Banner/>
+        <ScrollContainer>
+          <ScrollPage>
+            <Animator animation={batch(Sticky(), Fade(), FadeIn())}>
+              <Banner/>
+            </Animator>
+          </ScrollPage>
+        </ScrollContainer>
         <Projects/>
       </div>
       <footer id="footr">
