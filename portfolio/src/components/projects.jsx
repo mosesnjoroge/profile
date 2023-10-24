@@ -1,13 +1,7 @@
-// import { scroll } from "framer-motion";
-// import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
-// import { useState } from 'react';
-// import Project from './projectComponents/project';
+
 // find an animation to display each project instead of modal
 export default function Projects() {
-  // const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
+
 
   return(
     <div>
