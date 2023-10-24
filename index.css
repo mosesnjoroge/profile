@@ -9,11 +9,6 @@
   font-family: 'Roboto'!important;
 }
 
-.btn:hover{
-
-  background-color: #FEA330!important;
-}
-
 .page-layout{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -25,9 +20,6 @@
 
 .modal-header{
   background-color:#FEA330;
-}
-#contactModalLabel{
-  color:#308BFE;
 }
 
 .project-btn{

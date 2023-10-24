@@ -1,0 +1,41 @@
+@import url(./style/components/navbar.css);
+@import url(./style/components/footer.css);
+@import url(./style/components/banner.css);
+@import url(./style/components/cards.css);
+@import url(./style/components/profile.css);
+html,
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+img {
+  height: auto;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2px;
+}

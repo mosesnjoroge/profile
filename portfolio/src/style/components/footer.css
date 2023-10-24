@@ -1,0 +1,23 @@
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #FEA330;
+}
+
+.footer-item .footer-icon a:hover{
+  color: #308BFE!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+
+#footr {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;            /* Footer height */
+}
