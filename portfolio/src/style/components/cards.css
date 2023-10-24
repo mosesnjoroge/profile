@@ -1,45 +1,34 @@
-.card-title{
-  height:100vh;
-  background-color: black;
-}
-
-.card-trip {
+.card-product {
   overflow: hidden;
+  height: 80vh;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding-bottom: 10 px;
+  display: flex;
+  align-items: center;
 }
 
-.card-trip > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
+.card-product img {
+  height: 70%;
+  width: 200px;
+  /* object-fit: cover; */
 }
 
-.card-trip h2 {
+.card-product h2 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
-.card-trip p {
+.card-product p {
   font-size: 12px;
+  line-height: 1.4;
   opacity: .7;
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
-.card-trip .card-trip-infos {
+.card-product .card-product-infos {
   padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
-
-.project-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
 }
 
 /* Smallest device */
